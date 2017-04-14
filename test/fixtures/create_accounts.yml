@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  auto_increment: MyString
+  username: MyString
+  password: MyString
+
+two:
+  id: 
+  auto_increment: MyString
+  username: MyString
+  password: MyString

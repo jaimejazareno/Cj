@@ -1,0 +1,18 @@
+
+
+<h1>Register Page</h1>
+
+<div class="jumbotron">
+<%= form_for :register, url: "register" do |f| %>
+
+<%= f.text_field('', class: 'haha', name:"username",placeholder: "Username") %>
+<br>
+<%= f.password_field('password', class: 'haha', name: "password",placeholder: "Password") %>
+<br>
+<%= f.password_field('password', class: 'haha', name: "passwordz",placeholder: "Re-type Password") %>
+
+<%= f.submit("Register",{'class'=>'btn btn-success'}) %>
+
+<% end %>
+</div>
+<%= link_to('Login','index',{'class' => 'asds'}) %>
